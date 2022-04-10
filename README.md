@@ -17,5 +17,28 @@ Our web app, Watchman, helps in the detection of unruly public behavior of crowd
 - HTML/CSS/Js
 - Bootstrap
 
+## **HOW TO RUN**
+- Clone the GitHub repository: 
+``` sh
+$ git clone https://github.com/ASHWarriors/Watchman.git
+```
+
+- Install dependencies from requirements.txt using command 
+``` sh
+$ pip install -r requirements.txt
+```
+- Open Powershell or CMD terminal if using Windows, in the directory containing "Watchman" set-up the Django server by running the following command.
+``` sh
+$ python manage.py runserver
+```
+
+- Open up Google Chrome and type in ```localhost:8000\```. 
+
+***Watchman is up and running!***
+
+- Click on “Start Detection” to enable violence detection.
+
+
+
 ## VIDEO DEMO <br>
 [Click here to view demo video](https://youtu.be/r3yKzQSgItE)
