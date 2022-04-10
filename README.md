@@ -18,4 +18,4 @@ Our web app, Watchman, helps in the detection of unruly public behavior of crowd
 - Bootstrap
 
 ## VIDEO DEMO <br>
-[Click here to view demo video](https://drive.google.com/file/d/1mrLOM37aKNjvHkhdSfn-vbuRneeKy-WT/view?usp=sharing)
+[Click here to view demo video](https://youtu.be/r3yKzQSgItE)
