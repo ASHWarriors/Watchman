@@ -4,7 +4,7 @@ def isAlertedBefore(now, before):
 
 
 def checkViolence(violence_grade):
-    return violence_grade >= 0.80
+    return violence_grade >= 0.96
 
 def getLocation():
     import requests
@@ -48,7 +48,7 @@ def detect():
 
     model = load_model(os.path.join(os.getcwd(), 'model-best'))
 
-    cap = cv2.VideoCapture('violence.mp4')
+    cap = cv2.VideoCapture('violence1.mp4')
     threshold = 10
     bankOfFrames = []
     reshapedFrames = np.zeros((threshold, 227, 227, 1), dtype=np.float)
